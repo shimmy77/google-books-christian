@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.Book {
+    display: flex;
+    flex-direction: column;
+}
+
+.book_info {
+    display: flex;
+    justify-content: center;    
+}
+
+.book_img {
+    vertical-align: middle;
+    flex: 1;
+}
+
+.book_description {
+    flex: 2;
+}
